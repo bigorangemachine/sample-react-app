@@ -1,0 +1,74 @@
+
+/*@import './node_modules/minireset.css/minireset.css';*/
+.js-hide{display:none;}
+.nav.navbar-nav.navbar-left{float:left;}
+.nav.navbar-nav.navbar-right{float:right;}
+.header.navbar{
+  padding:0px;margin:0px;
+}
+main#page-content-wrapper{
+  width:100%;
+  &,
+  & div.container-fluid{
+    padding:0px;margin:0px;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+.gridItem {
+  width:33%;
+  a,img{display:block;width:100%;}
+}
+.Movie h3{
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color:#009688;
+	font-family: Helvetica;
+	font-size: 32px;
+	font-weight: 300;
+	text-align: left;
+	color: #ffffff;
+  width:100%;
+  padding:2.1rem 2.4rem;
+  margin:0px 0px 2.4rem;
+  font-weight:400;
+}
+.Movie .poster{
+  display:inline-block;
+  margin-bottom:2.4rem;
+}
+.Movie .glanceDetails{
+  margin-left:2.4rem;
+  display:inline-block;
+  vertical-align: top;
+}
+.Movie article{
+  width:87%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Movie{
+.dateReleased,.duration,.rating{font-family: 'Roboto', Arial, sans-serif;}
+.dateReleased,.dateReleased{
+	font-size: 2.4rem;
+	font-weight: 300;
+	text-align: left;
+	color: #747474;
+}
+.duration{
+	font-style: oblique;
+}
+.rating{
+	font-size: 1.6rem;
+	text-align: left;
+	color: #000000;
+}
+.overview{
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	text-align: left;
+	color: #747474;}
+}
